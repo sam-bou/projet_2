@@ -24,7 +24,7 @@ st.markdown(
 )
 
 
-df_main = pd.read_csv(r"C:\Users\bougu\OneDrive\Bureau\WILD CODE SCHOOL\projet 2\VS code\groupe_final.csv", sep=",", low_memory=False)
+df_main = pd.read_csv(r"groupe_final.csv", sep=",", low_memory=False)
 
 
 ML_final= df_main.copy()
